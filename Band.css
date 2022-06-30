@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif
+}
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    height: 46.5px;
+    line-height: 46.5px;
+    background-color: black;
+    font-size: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+}
+nav ul li a{
+    display: block;
+    padding: 0 24px;
+}
+nav ul li a:hover{
+    background-color: gainsboro;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 46.5px;
+}
+nav ul li:hover >ul{
+    display: block;
+    width: 100%; 
+}
+nav ul li ul li a{
+    color: black;
+}
+nav ul ul li{
+    width: 160px;
+    background-color: white;
+    color: black;
+    z-index: 1;
+}
+.btn{
+    display: none;
+    cursor: pointer;
+    float: right;
+    line-height: 46.5px;
+}
+#menu{
+    display: none;
+}
+
+.search{
+    color: white;
+    float: right;
+    line-height: 46.5px !important;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.search:hover{
+    background-color: #f44336;
+}
+
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner-text{
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    color: white;
+}
+.banner-text h3{
+    text-align: center;
+}
+.content{
+    padding-top: 64px;
+}
+.content, .grid{
+    width: 60%;
+    margin: 0 auto;
+}
+.content h2{
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 400
+}
+.content p:first-of-type{
+    font-style: italic;
+    text-align: center;
+}
+.content p:last-of-type{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.item img{
+    border-radius: 5px; 
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 64px;
+}
+.item{
+    flex: 1;
+    text-align: center;
+}
+.item h4{
+    font-weight: 100;
+    font-size: 15px;
+}
+.tour{
+    background-color: black;
+    color: white;
+    padding: 64px 0 32px 0px;
+}
+.tour h2{
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 400
+}
+.rem{
+    font-style: italic;
+    text-align: center;
+}
+.month{
+    width: 55%;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+.highlight-gray{
+    display: inline-block;
+    background-color: #757575;
+    padding: 2px;
+}
+.highlight-red{
+    display: inline-block;
+    background-color: #f44336;
+    padding: 2px;
+    color: white;
+}
+.circle {
+    background: black;
+    color: white;
+    width: 29px; 
+    height: 25px;
+    border-radius: 50%;
+    display: flex; /* or inline-flex */
+    align-items: center; 
+    justify-content: center;
+    float: right;
+  }
+  .item2{
+    width: 33.33333%;
+    background-color: white;
+    color: black;
+    padding-bottom: 16px;
+    flex: 1;
+  }
+  .item2 img{
+    width: 100%;
+  }
+  .blur:hover{
+    opacity: 0.6;
+  }
+  .item2 p{
+    padding: 0 16px;
+  }
+  .item2 p:first-of-type{
+    font-weight: bold;
+  }
+  .submit{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    margin: 0 16px;
+  }
+  .submit:hover{
+    background-color: gainsboro;
+    border: none;
+    cursor: pointer;
+}
+  .city{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 96px;
+  }
+  .flex2{
+    width: 56.5%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contact{
+    padding: 64px 0px 32px 0px;
+}
+.contact h2{
+    text-align: center;
+    font-weight: 100;
+}
+.fan{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+.form{
+    text-align: right;
+}
+.address, .form{
+    flex: 1;
+    flex-wrap: wrap;
+}
+.fan >div{
+    width: 50%;
+}
+#name, #email, #msg{
+    height: 20px;
+    padding: 8px;
+}
+#name, #email{
+    width: 145px;
+}
+
+#msg{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 316px;
+}
+.send{
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    float: right;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.location{
+    background-color: #f1f1f1;
+}
+.location img{
+    width: 100%;
+}
+.social-media{
+    background-color: #f1f1f1;
+    padding-top: 64px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+.fa-brands:hover{
+    opacity: 0.6;
+    }
+.fa-brands{
+    display: inline-block;
+    font-size: 25px;
+}
+@media (max-width:1120px){
+    #name, #email, #msg, .send{
+        display: block;
+        float: none;
+    }
+    #email{
+        margin-top: 8px;
+    }
+}
+@media (max-width:850px){
+    nav li{
+        font-size: 13px;
+    }
+    .banner-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}
+@media (max-width:680px){
+    #msg{
+        width: 100%;
+    }
+}
+@media (max-width:400px){
+    #msg{
+        width: 150px;
+    }
+}
+@media (max-width:680px){
+    .menu, .search, .down{
+        display: none !important;
+    }
+    .btn{
+        display: block;
+        color: red;
+        margin-right: 15px;
+    }
+    nav ul{
+        position: fixed;
+        left: -100%;
+        top: 46.5px;
+        width: 100%;
+    }
+    .menu:checked ~ul{
+        display: block;
+        background-color: #757575;
+        text-align: center;
+        left: 0;
+        height: 100%;
+        transition: all 0.9s;
+    }
+    nav ul li{
+        display: block;
+    }
+}
+@media (max-width:800px){
+.month, .flex2{
+    width: 100%;
+}
+}
+@media (max-width:450px){
+.fan{
+    display: block;
+}
+}
